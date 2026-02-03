@@ -1,0 +1,114 @@
+<body class="fade-init">
+  <pre id="terminal"><span id="cursor">▮</span></pre>
+
+  <button
+    id="enter-btn"
+    class="hidden enter-btn enter-btn-pulse"
+    aria-label="Tap or click to continue"
+  >
+    ▶
+    <span class="enter-label-desktop">PRESS ENTER TO CONTINUE</span>
+    <span class="enter-label-mobile">TAP TO CONTINUE</span>
+  </button>
+
+  <div id="glitch-overlay" class="hidden glitch-overlay"></div>
+
+  <div id="loader" class="hidden">
+    <div id="loader-bar"></div>
+  </div>
+
+  <div id="login-section" class="hidden login-box">
+    <div>Secure Access</div>
+    <div style="margin-top:8px;">
+      <input id="username" placeholder="username">
+      <input id="password" type="password" placeholder="password">
+      <button id="login-btn">LOGIN</button>
+    </div>
+    <div id="error"></div>
+  </div>
+
+  <div id="game" class="hidden game-box">
+    <pre id="game-screen" class="game-screen"></pre>
+    <div id="game-status" class="game-status"></div>
+    <div class="game-controls">
+      <button id="left-btn" class="game-btn">⬅</button>
+      <button id="right-btn" class="game-btn">➡</button>
+    </div>
+  </div>
+
+  <div id="final-panel" class="hidden final-panel">
+    <div class="final-title">ARCHIVED BIRTHDAYS</div>
+
+    <div class="final-gallery">
+      <img src="https://drive.google.com/thumbnail?id=1ib2cddn4aLysgemlzRemMfrCxF36DtU_&sz=w1000" alt="photo 1">
+      <img src="https://drive.google.com/thumbnail?id=1gtwxBm6fbVUckU5O1oJa4f6LQlQJnWqJ&sz=w1000" alt="photo 2">
+      <img src="https://drive.google.com/thumbnail?id=10RYih5g7Jsc-aeKdPLZjeXgrRDbYtIRi&sz=w1000" alt="photo 3">
+      <img src="https://drive.google.com/thumbnail?id=1_Oe7zKszyGMSbzt0qAyIWaY5zIxoS1tv&sz=w1000" alt="photo 4">
+    </div>
+
+    <div class="final-sub more-btn">
+      BIRTHDAY GIRL INTRODUCED.
+      <span class="more-text">MOTIONS?</span>
+      <span class="more-arrow">▶</span>
+    </div>
+  </div>
+
+  <div id="photo-zoom" class="hidden photo-zoom-overlay">
+    <div class="photo-zoom-inner">
+      <img id="photo-zoom-img" class="photo-zoom-img" src="" alt="zoomed photo">
+      <div class="photo-zoom-caption">CLICK / TAP ANYWHERE TO CLOSE</div>
+    </div>
+  </div>
+
+  <div id="video-page" class="hidden video-page">
+    <video id="final-video" autoplay muted playsinline>
+      <source src="https://raw.githubusercontent.com/thmrntr-cyber/longsardine/refs/heads/main/capers2026-2.mp4" type="video/mp4">
+    </video>
+    <div class="video-tint"></div>
+    <div class="video-caption">
+      MEMORY PLAYBACK: FOR CAPERS 2026 /
+      <span id="patch-trigger" class="patch-trigger">UPDATE PATCH</span>
+    </div>
+  </div>
+
+  <div id="patch-page" class="hidden patch-page">
+    <div class="patch-inner">
+      <div class="patch-title">APPLYING SAFE MODE PATCH...</div>
+      <div class="patch-bar">
+        <div class="patch-bar-fill"></div>
+      </div>
+      <div class="patch-log">
+        <p>Backing up current state...</p>
+        <p>Disabling armor protocols...</p>
+        <p>Umorder ng food sa ungkot</p>
+        <p>Nag-add ng pancit for longer life</p>
+        <p>Enabling softness override...</p>
+        <p>Preparing Safe Mode for Capers.</p>
+      </div>
+      <div id="patch-complete-wrap" class="patch-complete-wrap hidden">
+        <button id="patch-complete-btn" class="patch-complete-btn">
+          PATCH COMPLETE – UPDATE NOW?
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <div id="safe-page" class="hidden safe-page">
+    <div class="safe-inner">
+      <div class="safe-title">SAFE MODE: ON</div>
+      <div class="safe-text">
+        <p>You don't have to be on fight mode.</p>
+        <p>You can eat a lot.</p>
+        <p>Or cry a lot.</p>
+        <p>And laugh a lot.</p>
+        <p>It's just me and you and the cats.</p>
+        <p>Happy birthday, Capers.</p>
+      </div>
+      <div class="safe-footer">SYSTEM WILL STAY AS LONG AS YOU NEED.</div>
+    </div>
+  </div>
+
+  <audio id="bg-music" preload="auto" loop>
+    <source src="https://raw.githubusercontent.com/thmrntr-cyber/longsardine/refs/heads/main/Long%20Sardine%20-%20Oxis.mp3" type="audio/mpeg">
+  </audio>
+</body>
